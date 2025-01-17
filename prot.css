@@ -1,0 +1,140 @@
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #1e1e1e;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 600;
+}
+
+header nav a:hover {
+    color: #00ffcc;
+}
+
+.contact-button {
+    background-color: #00ffcc;
+    color: #121212;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-button:hover {
+    background-color: #00d1a0;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background:url("io02.jpg") no-repeat;
+    background-size: cover;
+    
+    
+}
+
+
+.hero img {
+    width: 500px;
+    border-radius: 300px;
+    
+}
+
+.hero-content {
+    max-width: 500px;
+}
+
+.hero-content h1 {
+    color: #00ffcc;
+    font-size: 2.5rem;
+}
+
+.hero-content p {
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.download-button {
+    display: inline-block;
+    background-color: #00ffcc;
+    color: #121212;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.download-button:hover {
+    background-color: #00d1a0;
+}
+
+.section {
+    padding: 50px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 2rem;
+    color: #00ffcc;
+    margin-bottom: 20px;
+}
+
+.about, .services, .contact {
+    background-color: #1e1e1e;
+    margin: 20px 0;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.about p, .services ul, .contact p {
+    line-height: 1.8;
+}
+
+.services ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.services ul li {
+    margin: 10px 0;
+}
+
+.contact a {
+    color: #00ffcc;
+    text-decoration: none;
+}
+
+.about img, .services img, .contact img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+.about-content, .services-content, .contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+.logo{
+    color: rgb(255, 102, 0);
+    font-family: cursive;
+    font-size: 20px;
+
+}
